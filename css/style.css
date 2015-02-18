@@ -1,16 +1,16 @@
-/* 
+/*
 ------------------------------------------------------------------------------
 General
-------------------------------------------------------------------------------		
+------------------------------------------------------------------------------
 */
-button{background:#03a9f4;border:1px solid #fff;font-weight:200;letter-spacing:0.5px;border-radius:26px;transition:all .5s ease-in-out;-webkit-animation-name:fadeInUp;-moz-animation-name:fadeInUp;-o-animation-name:fadeInUp;animation-name:fadeInUp;-webkit-animation-duration:2s;-moz-animation-duration:2s;-o-animation-duration:2s;animation-duration:2s;-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;-o-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-delay:2s;-moz-animation-delay:2s;-o-animation-delay:2s;animation-delay:2s}
-button,button a{color:#}@media only screen and (max-width:480px){button{font-size:1em}}button a{padding:13px 25px;text-decoration:none;display:block}button:hover{background:#fff}button:hover>a:after,button:hover>a:before{content:''}
+button{background:#424242;border:0px solid #424242;font-weight:200;letter-spacing:0.5px;border-radius:26px;transition:all .5s ease-in-out;-webkit-animation-name:fadeInUp;-moz-animation-name:fadeInUp;-o-animation-name:fadeInUp;animation-name:fadeInUp;-webkit-animation-duration:2s;-moz-animation-duration:2s;-o-animation-duration:2s;animation-duration:2s;-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;-o-animation-fill-mode:both;animation-fill-mode:both;-webkit-animation-delay:2s;-moz-animation-delay:2s;-o-animation-delay:2s;animation-delay:2s}
+button,button a{color:#}@media only screen and (max-width:480px){button{font-size:1em}}button a{padding:13px 25px;text-decoration:none;display:block}button:hover{background:#f76358}button:hover>a:after,button:hover>a:before{content:''}
 
 <!--按钮的CSS-->
 
 
 body {
-	background: none;
+	background-color: #fff;
 	font-family: 'Lato', sans-serif;
 }
 
@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5 {
 	color: #000;
 	margin: 10px 0;
 	font-family: 'Lato', sans-serif;
-	font-weight:400;	
+	font-weight:400;
 }
 
 h1 {
@@ -72,21 +72,21 @@ p {
 	font-weight: 300;
 	font-size: 16px;
 	line-height: 20px;
-	color:#FFF;
+	color:#424242;
 	font-style: normal;
 }
 
-/* 
+/*
 ------------------------------------------------------------------------------
 Main Content
-------------------------------------------------------------------------------		
+------------------------------------------------------------------------------
 */
 
 
-/* 
+/*
 ------------------------------------------------------------------------------
 Other
-------------------------------------------------------------------------------		
+------------------------------------------------------------------------------
 */
 
 .block-between-contents {
@@ -108,10 +108,10 @@ Other
 	text-align: center;
 }
 
-/* 
+/*
 ------------------------------------------------------------------------------
 Header / Menu Area
-------------------------------------------------------------------------------		
+------------------------------------------------------------------------------
 */
 
 #header-wrap {
@@ -140,10 +140,10 @@ Header / Menu Area
 	margin:40px 0;
 }
 
-/* 
+/*
 ------------------------------------------------------------------------------
 Topmenu
-------------------------------------------------------------------------------		
+------------------------------------------------------------------------------
 */
 
 ul.navigation {
@@ -157,7 +157,7 @@ ul.navigation li {
 	line-height: 60px;
 	text-transform:uppercase;
 	font-weight: 700;
-	padding: 0 15px;	
+	padding: 0 15px;
 }
 
 ul.navigation  li a {
@@ -186,7 +186,7 @@ ul.navigation .current a {
 	border:none;
 }
 
-/* --------- Slideout Menu --------- */ 
+/* --------- Slideout Menu --------- */
 #slideout-wrap { position: fixed; z-index: 100; top: 0; left: 0; margin-top:-65px; height:65px; width:100%; background: none!important; }
 #slideout-button {position: absolute;top: 64px; left:49%; z-index:10;}
 #slideout-button a {width:45px;height:33px;display: block;text-indent: -9999px;background: url(../images/slide_btn.png) 0 0 ;}
@@ -221,10 +221,10 @@ ul.navigation { display: none;margin:0;}
 }
 }
 
-/* 
+/*
 ------------------------------------------------------------------------------
 Logo
-------------------------------------------------------------------------------		
+------------------------------------------------------------------------------
 */
 
 .logo {
@@ -232,10 +232,10 @@ Logo
 	text-align:center;
 }
 
-/* 
+/*
 ------------------------------------------------------------------------------
 Inner Content
-------------------------------------------------------------------------------		
+------------------------------------------------------------------------------
 */
 
 .content {
@@ -262,7 +262,7 @@ h3.content-title-small {
 	font-family: 'Dancing Script', cursive;
 	font-weight:bold;
 	font-size:27px;
-	color:#FFF;
+	color:#212121;
 	margin:0;
 	text-align:left;
 }
@@ -284,10 +284,10 @@ h3.content-title-small {
     float: left;
 }
 
-/* 
+/*
 ------------------------------------------------------------------------------
 Header Social Icons
-------------------------------------------------------------------------------		
+------------------------------------------------------------------------------
 */
 /* social icons */
 #social-icons-top {
@@ -296,11 +296,11 @@ Header Social Icons
     font-size: 10px;
 	clear: both;
 }
-.social-header { 
-	width: auto; 
-	text-align: center; 
-	display: inline-block; 
-	margin: 40px auto; 
+.social-header {
+	width: auto;
+	text-align: center;
+	display: inline-block;
+	margin: 40px auto;
 }
 
 .social-header ul li{ float: left; margin-right: 10px;}
@@ -378,10 +378,10 @@ Header Social Icons
 	background-position:-210px top;
 }
 
-/* 
+/*
 ------------------------------------------------------------------------------
 Feature Wrap
-------------------------------------------------------------------------------		
+------------------------------------------------------------------------------
 */
 
 .features-wrap{
@@ -417,17 +417,17 @@ Feature Wrap
 
 .features-content h5{
 	font-size:14px;
-	color:#FFF;
+	color:#424242;
 	margin: 20px 0;
 	font-weight:700;
 	margin-top:15px;
 	text-transform:uppercase;
 }
 
-/* 
+/*
 ------------------------------------------------------------------------------
 Features Wrap - Contact
-------------------------------------------------------------------------------		
+------------------------------------------------------------------------------
 */
 
 .contact-content {
@@ -444,9 +444,9 @@ Features Wrap - Contact
 	padding:5px 15px;
 	font-weight:700;
 	text-transform: uppercase;
-	-webkit-border-radius: 5px; 
-	-moz-border-radius: 5px; 
-	-o-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
 	border-radius: 5px;
 }
 
@@ -464,10 +464,10 @@ Features Wrap - Contact
 	color: #FFF;
 }
 
-/* 
+/*
 ------------------------------------------------------------------------------
 Isotope Portfolio
-------------------------------------------------------------------------------		
+------------------------------------------------------------------------------
 */
 
 #portfolio {
@@ -537,9 +537,9 @@ Isotope Portfolio
     -moz-transition: all 200ms ease-in;
     background: #2E2E2E;
     margin-bottom: 20px;
-	-webkit-border-radius: 5px; 
-	-moz-border-radius: 5px; 
-	-o-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
 	border-radius: 5px;
 }
 .filter li a:hover {
@@ -561,9 +561,9 @@ Isotope Portfolio
 .overlay img {
     display: block;
     max-width: 100%;
-	-webkit-border-radius: 5px; 
-	-moz-border-radius: 5px; 
-	-o-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
 	border-radius: 5px;
 	-webkit-box-shadow: 0px 1px 6px rgba(0,0,0,.8);
 	-moz-box-shadow: 0px 1px 6px rgba(0,0,0,.8);
@@ -627,10 +627,10 @@ Isotope Portfolio
 }
 
 
-/* 
+/*
 ------------------------------------------------------------------------------
 About Content
-------------------------------------------------------------------------------		
+------------------------------------------------------------------------------
 */
 
 .about { }
@@ -641,7 +641,7 @@ About Content
 
 .about h3{
 	font-size:40px;
-	color:#FFF;
+	color:#212121;
 	margin: 20px 0;
 	font-weight:700;
 	margin-top:15px;
@@ -654,10 +654,10 @@ About Content
 	margin-top:10px;
 }
 
-/* 
+/*
 ------------------------------------------------------------------------------
 About / Team Social Icons
-------------------------------------------------------------------------------		
+------------------------------------------------------------------------------
 */
 
 .social-icons { width: auto; text-align: center; display: inline-block; margin: 10px auto; }
@@ -669,10 +669,10 @@ About / Team Social Icons
 	width:20px;
 	height:20px;
 	text-indent: -9999px;
-	background:url(../images/social-icons-team.png) no-repeat; 
+	background:url(../images/social-icons-team.png) no-repeat;
 	transition: opacity 0.2s linear;-webkit-transition: opacity 0.2s linear;-moz-transition: opacity 0.2s linear;-o-transition: opacity 0.2s linear;
 	opacity: 0.80;
-	filter: alpha(opacity=80); 
+	filter: alpha(opacity=80);
 }
 .social-icons li a:hover{ opacity: 1; filter: alpha(opacity=100); }
 .social-icons li.facebook a{background-position: 0 0;}
@@ -682,10 +682,10 @@ About / Team Social Icons
 .social-icons li.linkedin a{background-position: -80px 0;}
 .social-icons li.email a{background-position: -100px 0;}
 
-/* 
+/*
 ------------------------------------------------------------------------------
 About / Team
-------------------------------------------------------------------------------		
+------------------------------------------------------------------------------
 */
 
 .team {
@@ -699,7 +699,7 @@ About / Team
 	font-size:22px;
 	color:#FFF;
 	margin:20px 0;
-	text-align:center;	
+	text-align:center;
 }
 
 .team-member-pos {
@@ -721,10 +721,10 @@ About / Team
 
 .team-user {}
 
-/* 
+/*
 ------------------------------------------------------------------------------
 Clients Wrap
-------------------------------------------------------------------------------		
+------------------------------------------------------------------------------
 */
 
 .clients-wrap{
@@ -746,40 +746,40 @@ Clients Wrap
 }
 
 /* Testimonials */
-.testimonials p { 
-	margin-bottom: 10px; 
+.testimonials p {
+	margin-bottom: 10px;
 	font-style: italic;
-	text-align: right;	
+	text-align: right;
 }
-.testimonials cite { 
+.testimonials cite {
 	color: #FFF;
-	font-style: normal; 
-	display: block; 
-	text-align: right; 
-	text-transform: uppercase; 
-	font-size: 10px; 
-	font-weight: bold; 
-	letter-spacing: 1px; 
-	font-family: Arial, Helvetica, sans-serif; 
+	font-style: normal;
+	display: block;
+	text-align: right;
+	text-transform: uppercase;
+	font-size: 10px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-family: Arial, Helvetica, sans-serif;
 }
 .testimonials {
-	font-family: Arial, Helvetica, sans-serif; 
+	font-family: Arial, Helvetica, sans-serif;
 	width: 100%; /* required */
 	height: 200px;
 	margin: 0 auto;
 }
-#quote_wrap { 
+#quote_wrap {
 	background: none;
-	margin: 0; 
+	margin: 0;
 	padding: 20px 0;
-	/*margin: 0; 
+	/*margin: 0;
 	padding: 0 20px 20px 20px; */
 }
 
-/* 
+/*
 ------------------------------------------------------------------------------
 Pricing Table
-------------------------------------------------------------------------------		
+------------------------------------------------------------------------------
 */
 
 #pricing-table {
@@ -789,7 +789,7 @@ Pricing Table
 
 #pricing-table .plan {
 	font-size:14px;
-	background: none;      
+	background: none;
 	border: 1px solid #FFF;
 	color: #FFF;
 	margin: 10px 0 10px 10px;
@@ -812,11 +812,11 @@ Pricing Table
 	margin: -20px 0px 0px 0px;
 }
 
-#pricing-table .plan:nth-child(1) h3 {     
+#pricing-table .plan:nth-child(1) h3 {
 }
 
-#pricing-table .plan:nth-child(4) h3 {     
-}	
+#pricing-table .plan:nth-child(4) h3 {
+}
 
 #pricing-table .price-number {
 	display: block;
@@ -839,16 +839,16 @@ Pricing Table
 	font-family: 'Lato', sans-serif;
 
 }
-	
+
 #pricing-table .signup {
 	position: relative;
 	padding: 8px 20px;
-	margin: 20px 0 0 0;  
+	margin: 20px 0 0 0;
 	color: #FFF;
 	font-weight: 700;
 	text-transform: uppercase;
 	text-decoration: none;
-	display: inline-block;       
+	display: inline-block;
 	background-color: none;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
@@ -864,10 +864,10 @@ Pricing Table
 	font-family: 'Lato', sans-serif;
 }
 
-/* 
+/*
 ------------------------------------------------------------------------------
 Faq Content
-------------------------------------------------------------------------------		
+------------------------------------------------------------------------------
 */
 
 .faq-wrap {
@@ -883,16 +883,16 @@ Faq Content
 }
 
 .video-faq iframe,
-.video-faq object,  
+.video-faq object,
 .video-faq embed {
 	position: absolute;
-	border:none; 
+	border:none;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
-	-webkit-border-radius: 5px; 
-	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
 	-o-border-radius: 5px;
 	border-radius: 5px;
 }
@@ -907,7 +907,7 @@ Faq Content
 	margin: 20px 0 10px 0;
 	font-style: normal;
 }
-	
+
 #accordion h3 {
 	background: none;
 	border-top: 1px solid #FFF;
@@ -926,10 +926,10 @@ Faq Content
 	font-style: normal;
 }
 
-/* 
+/*
 ------------------------------------------------------------------------------
 Contact Form
-------------------------------------------------------------------------------		
+------------------------------------------------------------------------------
 */
 
 .contact-wrap {
@@ -942,11 +942,11 @@ Contact Form
 
 #contact-form fieldset {
 	padding:0;
-	border:none;	
+	border:none;
 	float:left;
 	display:inline;
 	width:100%;
-}	
+}
 
 #contact-form fieldset.last {
 	width:100%;
@@ -962,17 +962,17 @@ Contact Form
 	font-style: normal;
 	font-family: 'Lato', sans-serif;
 	text-transform: uppercase;
-}	
+}
 
-#contact-form input, #contact textarea {		
+#contact-form input, #contact textarea {
 	width:96%;
 	border:1px solid #d5d5d5;
 	padding:10px;
 	background: none;
 	color: #FFF;
-	-webkit-border-radius: 4px; 
-	-moz-border-radius: 4px; 
-	-o-border-radius: 4px; 
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
 	border-radius: 4px;
 	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.11), 0 1px 4px #000000 inset, 0 10px 10px rgba(0, 0, 0, 0.08) inset;
 }
@@ -998,11 +998,11 @@ Contact Form
 	cursor:pointer;
 	margin-top:15px;
 	text-transform: uppercase;
-	-webkit-border-radius: 4px; 
-	-moz-border-radius: 4px; 
-	-o-border-radius: 4px; 
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
 	border-radius: 4px;
-}		
+}
 
 #contact-form button:hover {
 	background:#FF675B;
@@ -1010,7 +1010,7 @@ Contact Form
 	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.11), 0 1px 4px #000000 inset, 0 10px 10px rgba(0, 0, 0, 0.08) inset;
 }
 
-#message-form { 
+#message-form {
 	font-size: 14px!important;
 	font-weight: 700!important;
 }
@@ -1029,7 +1029,7 @@ Contact Form
 	text-transform:uppercase;
 }
 
-.contact-info-subtitle span { 
+.contact-info-subtitle span {
 	margin-left: 15px;
 	font-weight: 700;
 }
@@ -1042,16 +1042,16 @@ Contact Form
 
 .gmap {
 	width: 100%;
-	-webkit-border-radius: 4px; 
-	-moz-border-radius: 4px; 
-	-o-border-radius: 4px; 
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
 	border-radius: 4px;
 }
 
-/* 
+/*
 ------------------------------------------------------------------------------
 Footer
-------------------------------------------------------------------------------		
+------------------------------------------------------------------------------
 */
 
 #footer {
@@ -1073,10 +1073,10 @@ Footer
 	font-size:12px;
 }
 
-/* 
+/*
 ------------------------------------------------------------------------------
 FlexSlider
-------------------------------------------------------------------------------		
+------------------------------------------------------------------------------
 */
 
 /* Browser Resets */
@@ -1086,25 +1086,25 @@ FlexSlider
 .flexslider a:focus  {outline: none;}
 .slides,
 .flex-control-nav,
-.flex-direction-nav {margin: 0; padding: 0; list-style: none;} 
+.flex-direction-nav {margin: 0; padding: 0; list-style: none;}
 
 /* FlexSlider Necessary Styles
-*********************************/ 
+*********************************/
 .flexslider {margin: 0; padding: 0;}
 .flexslider .slides > li {display: none; -webkit-backface-visibility: hidden;} /* Hide the slides before the JS is loaded. Avoids image jumping */
 .flexslider .slides img {
-	width: 100%; 
+	width: 100%;
 	display: block;
-	-webkit-border-radius: 5px; 
-	-moz-border-radius: 5px; 
-	-o-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
 	border-radius: 5px;
 }
 .flex-pauseplay span {text-transform: capitalize;}
 
 /* Clearfix for the .slides element */
-.slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;} 
-html[xmlns] .slides {display: block;} 
+.slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
+html[xmlns] .slides {display: block;}
 * html .slides {height: 1%;}
 
 /* No JavaScript Fallback */
@@ -1115,13 +1115,13 @@ html[xmlns] .slides {display: block;}
 
 /* FlexSlider Default Theme
 *********************************/
-.flexslider { 
-	margin: 0 0 60px; 
-	background: #fff; 
-	position: relative; 
-	-webkit-border-radius: 5px; 
-	-moz-border-radius: 5px; 
-	-o-border-radius: 5px; 
+.flexslider {
+	margin: 0 0 60px;
+	background: #fff;
+	position: relative;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
 	border-radius: 5px;
 	-webkit-box-shadow: 0px 1px 6px rgba(0,0,0,.8);
 	-moz-box-shadow: 0px 1px 6px rgba(0,0,0,.8);
@@ -1137,17 +1137,17 @@ html[xmlns] .slides {display: block;}
 /* Direction Nav */
 .flex-direction-nav {*height: 0;}
 .flex-direction-nav a {
-	width: 30px; 
-	height: 30px; 
-	margin: -20px 0 0; 
-	display: block; 
-	background: url(../images/bg_direction_nav.png) no-repeat 0 0; 
-	position: absolute; 
-	top: 50%; 
-	z-index: 10; 
-	cursor: pointer; 
-	text-indent: -9999px; 
-	opacity: 0; 
+	width: 30px;
+	height: 30px;
+	margin: -20px 0 0;
+	display: block;
+	background: url(../images/bg_direction_nav.png) no-repeat 0 0;
+	position: absolute;
+	top: 50%;
+	z-index: 10;
+	cursor: pointer;
+	text-indent: -9999px;
+	opacity: 0;
 	-webkit-transition: all .3s ease;
 }
 .flex-direction-nav .flex-next {background-position: 100% 0; right: -36px; }
@@ -1161,16 +1161,16 @@ html[xmlns] .slides {display: block;}
 .flex-control-nav {width: 100%; position: absolute; bottom: -40px; text-align: center;}
 .flex-control-nav li {margin: 0 6px; display: inline-block; zoom: 1; *display: inline;}
 .flex-control-paging li a {
-	width: 18px; 
-	height: 4px; 
-	display: block; 
-	background: #FFF; 
-	cursor: pointer; 
-	text-indent: -9999px; 
-	-webkit-border-radius: 3px; 
-	-moz-border-radius: 3px; 
-	-o-border-radius: 3px; 
-	border-radius: 3px; 
+	width: 18px;
+	height: 4px;
+	display: block;
+	background: #FFF;
+	cursor: pointer;
+	text-indent: -9999px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
 }
 .flex-control-paging li a:hover { background: #FF675B; }
 .flex-control-paging li a.flex-active { background: #FF675B; cursor: default; }
